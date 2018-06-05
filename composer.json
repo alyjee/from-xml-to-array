@@ -1,0 +1,30 @@
+{
+  "name": "alyjee/from-xml-to-array",
+  "description": "Conversion from xml to array",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Tahir Raza",
+      "email": "tahirraza.se@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.4",
+    "larapack/dd": "^1.1",
+    "spatie/array-to-xml": "^2.7"
+  },
+  "autoload": {
+    "psr-4": {
+      "Alyjee\\XmlToArray\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Alyjee\\XmlToArray\\Test\\": "tests"
+    }
+  }
+}
