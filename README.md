@@ -16,13 +16,7 @@ composer require alyjee/from-xml-to-array
 ```php
 use Alyjee\XmlToArray\XmlToArray;
 
-$xml = '<items>
-	<Facilities>
-		<Facility Code="*EC"><![CDATA[Earliest check-in at 14:00]]></Facility>
-		<Facility Code="*LF"><![CDATA[1 lift]]></Facility>
-		<Facility Code="*RS"><![CDATA[Room Service from 18:00 to 21:00]]></Facility>
-	</Facilities>
-	</items>';
+$xml = '<items><Facilities><Facility Code="*EC"><![CDATA[Earliest check-in at 14:00]]></Facility><Facility Code="*LF"><![CDATA[1 lift]]></Facility><Facility Code="*RS"><![CDATA[Room Service from 18:00 to 21:00]]></Facility></Facilities></items>';
 
 $result = XmlToArray::convert($xml);
 ```
